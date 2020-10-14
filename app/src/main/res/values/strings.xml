@@ -33,7 +33,7 @@
     <string name="pref_category_connection">Connection</string>
     <string name="pref_key_connection_address" translatable="false">conn_addr</string>
     <string name="pref_title_connection_address">Server address</string>
-    <string name="pref_default_connection_address" translatable="false">aloop.run:5557</string>
+    <string name="pref_default_connection_address" translatable="false">aloop.run:5556</string>
     <string name="network_error">Network error</string>
     <string name="pref_key_pref_model" translatable="false">model</string>
     <string name="pref_title_pref_model">Using model</string>
