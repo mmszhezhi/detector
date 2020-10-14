@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Detector</string>
+    <string name="cd_close_button">Back</string>
+    <string name="cd_settings_button">Settings</string>
+    <string name="cd_flash_button">Toggle camera flash</string>
+    <string name="search_button">Search object</string>
+    <string name="prompt_point_at_an_object">Point your camera at an object</string>
+    <string name="prompt_hold_camera_steady">Keep camera still for a moment</string>
+    <string name="prompt_move_camera_closer">Move closer to search</string>
+    <string name="prompt_searching">Searching&#8230;</string>
+    <plurals name="bottom_sheet_title">
+        <item quantity="one">%d match found</item>
+        <item quantity="other">%d matches found</item>
+    </plurals>
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_camera">Camera</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
+    <string name="pref_title_rear_camera_preview_size">Rear camera preview size</string>
+
+    <!--    String training-->
+    <string name="add" translatable="false">upload</string>
+    <string name="take_piture" translatable="false">take a picture</string>
+    <string name="select_picture" translatable="false">select picture from album</string>
+    <string name="new_model" translatable="false">create a model</string>
+
+    <!-- Strings for product search settings. -->
+    <string name="pref_category_product_search">Object search</string>
+    <string name="pref_key_confirmation_time" translatable="false">ct</string>
+    <string name="pref_title_confirmation_time">Confirmation time</string>
+    <string name="pref_summary_confirmation_time">Ranges from 500ms to 2000ms</string>
+    <string name="settings_title">Settings</string>
+    <string name="pref_category_connection">Connection</string>
+    <string name="pref_key_connection_address" translatable="false">conn_addr</string>
+    <string name="pref_title_connection_address">Server address</string>
+    <string name="pref_default_connection_address" translatable="false">aloop.run:5557</string>
+    <string name="network_error">Network error</string>
+    <string name="pref_key_pref_model" translatable="false">model</string>
+    <string name="pref_title_pref_model">Using model</string>
+    <string name="pref_category_model">Model</string>
+    <string name="library_button">Library</string>
+    <string name="default_value">Default</string>
+    <string name="select_model">Select Model</string>
+    <string name="pref_key_use_custom_model" translatable="false">use_custom_model</string>
+    <string name="pref_title_use_custom_model">Use custom model</string>
+    <string name="model_classes">Classes</string>
+    <string name="cd_model" translatable="false">Model</string>
+    <string name="offline">You\'re offline</string>
+    <string name="retry">Retry</string>
+    <string name="label_image">Label Image</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_save">Save</string>
+    <string name="hint_class">Class</string>
+    <string name="error_select_class">Please select class</string>
+    <string name="error_delete_file">An error occurred while deleting the file</string>
+    <string name="server_error">Internal server error</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_delete_object">Delete object?</string>
+    <string name="empty_list">Empty list</string>
+    <string name="title_activity_training">Detector</string>
+    <string name="title_home">Albums</string>
+    <string name="title_images">class_name</string>
+
+    <string name="title_dashboard">Detection</string>
+    <string name="title_notifications">Training</string>
+    <string name="file_not_found">File not found</string>
+    <string name="title_activity_model_info">ModelInfoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="cat_textfield_label" translatable="false">Model Name</string>
+    <string name="cat_textfield_brief" translatable="false">Brief Des</string>
+    <string name="cat_textfield_detial" translatable="false">Detail Des</string>
+    <string name="cat_textfield_password" translatable="false">Password</string>
+    <string name="cat_textfield_error" translatable="false">Error</string>
+    <string name="cat_textfield_placeholder_text" translatable="false">Placeholder text</string>
+
+    <string name="cat_textfield_customize_counter_text" translatable="false">Update character counter max</string>
+    <string name="cat_textfield_customize_label_text" translatable="false">Update label text</string>
+    <string name="cat_textfield_customize_error_text" translatable="false">Update error text</string>
+    <string name="cat_textfield_customize_helper_text" translatable="false">Update helper text</string>
+    <string name="cat_textfield_customize_placeholder_text" translatable="false">Update placeholder text</string>
+
+    <string name="cat_textfield_null_input_error_text" translatable="false">Enter a value</string>
+    <string name="cat_textfield_show_error_text" translatable="false">Show error</string>
+    <string name="cat_textfield_hide_error_text" translatable="false">Hide error</string>
+    <string name="cat_textfield_filled_start_icon_helper_text" translatable="false">Filled start icon text field</string>
+    <string name="cat_textfield_filled_start_end_icons_helper_text" translatable="false">Filled start and end icons text field</string>
+    <string name="cat_textfield_filled_clear_button_helper_text" translatable="false">Filled clear button text field</string>
+    <string name="cat_textfield_filled_custom_end_icon_helper_text" translatable="false">Filled custom end icon text field</string>
+    <string name="cat_textfield_filled_exposed_dropdown_helper_text" translatable="false">Filled exposed dropdown menu</string>
+    <string name="cat_textfield_filled_editable_exposed_dropdown_helper_text" translatable="false">Filled editable exposed dropdown menu</string>
+    <string name="cat_textfield_legacy_helper_text" translatable="false">Legacy text field</string>
+    <string name="cat_textfield_outlined_helper_text" translatable="false">Input Model Name</string>
+    <string name="brief_helper_txt" translatable="false">Input Brief Description</string>
+    <string name="detail_helper_txt" translatable="false">Input Detail Description</string>
+
+    <string name="cat_textfield_filled_helper_text" translatable="false">Filled text field</string>
+    <string name="cat_textfield_filled_dense_helper_text" translatable="false">Dense filled text field</string>
+    <string name="cat_textfield_filled_dense_password_helper_text" translatable="false">    Dense filled password text field
+    </string>
+    <string name="cat_chip_group_refresh_content_description" translatable="false">Refresh chip groups</string>
+    <string name="training_post_error_tip" translatable="false">can not train a model use same name</string>
+    <string name="class_select_tip" translatable="false">select at least one album</string>
+    <string name="operation_success" translatable="false">operation success</string>
+    <string name="operation_failed" translatable="false">operation failed</string>
+    <string name="operation_comfirm" translatable="false">delete comfirmation</string>
+    <string name="tip_title" translatable="false">TIP</string>
+    <string name="cancel_button_canceled" translatable="false">delete</string>
+
+
+
+
+    <string name="tab_text_1">training process</string>
+    <string name="tab_text_2">trained model</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:colorPrimary">@android:color/white</item>
+        <item name="android:colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--        <item name="android:windowLightStatusBar">true</item>-->
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="actionBarStyle">@style/AppTheme.Light.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.Light.ActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
+        <item name="background">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.TransparentBar" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.GoogleMaterial.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="selectableTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

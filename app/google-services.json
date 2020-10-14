@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "489841492130",
+    "firebase_url": "https://object-detection-bb4ca.firebaseio.com",
+    "project_id": "object-detection-bb4ca",
+    "storage_bucket": "object-detection-bb4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489841492130:android:b82d9ef8b23c66122117fb",
+        "android_client_info": {
+          "package_name": "net.xuanyutech.vision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489841492130-vq59p3enm5oq5hb60o6s914ce99p9ccg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_3ksWjKsFrw69HA1XAFciX8P_qyDg8_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489841492130-vq59p3enm5oq5hb60o6s914ce99p9ccg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

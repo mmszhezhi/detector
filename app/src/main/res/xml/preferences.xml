@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <androidx.preference.PreferenceCategory
+      android:title="@string/pref_category_model">
+    <androidx.preference.SwitchPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_model_train"
+        android:key="@string/pref_key_use_custom_model"
+        android:persistent="true"
+        android:title="@string/pref_title_use_custom_model" />
+
+    <Preference
+        app:dependency="@string/pref_key_use_custom_model"
+        android:icon="@drawable/ic_baseline_archive_24"
+        android:key="@string/pref_key_pref_model"
+        android:title="@string/pref_title_pref_model">
+      <intent
+          android:action="android.intent.action.MAIN"
+          android:targetPackage="net.xuanyutech.vision"
+          android:targetClass="net.xuanyutech.vision.models.ModelActivity"
+          />
+    </Preference>
+  </androidx.preference.PreferenceCategory>
+
+
+  <androidx.preference.PreferenceCategory
+      android:title="@string/pref_category_camera">
+
+    <androidx.preference.ListPreference
+        android:icon="@drawable/ic_baseline_photo_camera_24"
+        android:key="@string/pref_key_rear_camera_preview_size"
+        android:persistent="true"
+        android:title="@string/pref_title_rear_camera_preview_size"/>
+
+  </androidx.preference.PreferenceCategory>
+
+  <androidx.preference.PreferenceCategory
+      android:title="@string/pref_category_product_search">
+
+    <androidx.preference.SeekBarPreference
+        android:icon="@drawable/ic_baseline_timelapse_24"
+        android:defaultValue="1000"
+        android:key="@string/pref_key_confirmation_time"
+        android:max="2000"
+        android:persistent="true"
+        android:summary="@string/pref_summary_confirmation_time"
+        android:title="@string/pref_title_confirmation_time"
+        app:min="500"
+        app:showSeekBarValue="true"/>
+
+  </androidx.preference.PreferenceCategory>
+
+  <androidx.preference.PreferenceCategory
+      android:title="@string/pref_category_connection">
+
+    <androidx.preference.EditTextPreference
+        android:icon="@drawable/ic_baseline_cloud_24"
+        android:defaultValue="@string/pref_default_connection_address"
+        android:key="@string/pref_key_connection_address"
+        app:useSimpleSummaryProvider="true"
+        android:title="@string/pref_title_connection_address"/>
+
+  </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

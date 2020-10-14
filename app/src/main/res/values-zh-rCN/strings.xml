@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Detector</string>
+    <string name="pref_title_rear_camera_preview_size">后置摄像头预览尺寸</string>
+    <string name="pref_category_product_search">目标检索</string>
+    <string name="pref_title_confirmation_time">确认时间</string>
+    <string name="pref_summary_confirmation_time">500~2000毫秒</string>
+    <string name="settings_title">设置</string>
+    <string name="pref_category_connection">连接</string>
+    <string name="pref_title_connection_address">服务器地址</string>
+    <string name="pref_category_camera">相机</string>
+    <string name="prompt_searching">正在检索&#8230;</string>
+    <string name="prompt_move_camera_closer">镜头靠近点</string>
+    <string name="prompt_hold_camera_steady">保持相机静止一会儿</string>
+    <string name="prompt_point_at_an_object">将相机对准物体</string>
+    <string name="search_button">搜索物体</string>
+    <string name="cd_flash_button">切换相机闪光灯</string>
+    <string name="cd_settings_button">设置</string>
+    <string name="cd_close_button">返回</string>
+    <plurals name="bottom_sheet_title">
+        <item quantity="one">找到 %d 个匹配项</item>
+        <item quantity="other">找到 %d 个匹配项</item>
+    </plurals>
+    <string name="network_error">网络错误</string>
+    <string name="pref_title_pref_model">偏好模型</string>
+    <string name="pref_category_model">模型</string>
+    <string name="library_button">库</string>
+    <string name="default_value">默认</string>
+    <string name="select_model">选择模型</string>
+    <string name="pref_title_use_custom_model">使用自选模型</string>
+    <string name="model_classes">类别</string>
+    <string name="offline">加载页面时出现错误</string>
+    <string name="retry">点按以刷新</string>
+    <string name="label_image">标注对象</string>
+    <string name="title_delete">删除</string>
+    <string name="title_save">保存</string>
+    <string name="hint_class">类别</string>
+    <string name="error_select_class">请选择类别</string>
+    <string name="error_delete_file">删除文件时出现错误</string>
+    <string name="server_error">内部服务器错误</string>
+    <string name="text_ok">确定</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_delete_object">确定删除该对象吗？</string>
+    <string name="empty_list">空列表</string>
+    <string name="file_not_found">文件未找到</string>
+</resources>

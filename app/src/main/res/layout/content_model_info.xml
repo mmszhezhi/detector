@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cat_textfield_standard_spacing"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/cat_textfield_label"
+        app:helperText="@string/cat_textfield_outlined_helper_text"
+        app:helperTextEnabled="true"
+        app:placeholderText="@string/cat_textfield_placeholder_text">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/model_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/cat_textfield_brief"
+        app:helperText="@string/brief_helper_txt"
+        app:helperTextEnabled="true"
+        app:placeholderText="@string/cat_textfield_placeholder_text">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/brief_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/cat_textfield_detial"
+        app:helperText="@string/detail_helper_txt"
+        app:helperTextEnabled="true"
+        app:placeholderText="@string/cat_textfield_placeholder_text">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/detail_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/cat_chip_group_refresh"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:contentDescription="@string/cat_chip_group_refresh_content_description"-->
+<!--        app:srcCompat="@drawable/ic_baseline_refresh_24"-->
+<!--        app:fabSize="mini"/>-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <!-- Reflow chip group. -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/class_select_tip"
+                    />
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/reflow_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"/>
+
+                <!-- Scrolling chip group. -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp">
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/scroll_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:singleLine="true"/>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>
